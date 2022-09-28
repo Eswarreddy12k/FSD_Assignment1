@@ -1,0 +1,76 @@
+.c1{
+    
+    margin: 20px;
+    padding: 10px;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+#lioninfo,#lion2info,#hippoinfo,#zebrainfo,#pandainfo,#pythoninfo,#rpinfo{
+    display: none;
+}
+#lion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#lion img{
+    height: 35vh;
+    width: 29vw;
+}
+#lioninfo:target,#lion2info:target,#hippoinfo:target,#zebrainfo:target,#pandainfo:target,#pythoninfo:target,#rpinfo:target{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.knowaboutit{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#tigerinfo{
+    display: none;
+}
+#tigerinfo:target{
+    display: block;
+}
+.btn{
+    width: 180px;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1150px){
+    #lion img{
+        height: 150px;
+        width: 250px;
+    }
+}
